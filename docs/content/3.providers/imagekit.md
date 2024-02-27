@@ -254,10 +254,6 @@ ImageKit's Nuxt Image integration provides an easy-to-remember name for each tra
 | y | y |
 | xc | xc |
 | yc | yc |
-| oix | oix |
-| oiy | oiy |
-| oixc | oixc |
-| oiyc | oiyc |
 | crop | c |
 | cropMode | cm |
 | focus | fo |
