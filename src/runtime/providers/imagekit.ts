@@ -18,10 +18,6 @@ const operationsGenerator = createOperationsGenerator({
     y: 'y',
     xc: 'xc',
     yc: 'yc',
-    oix: 'oix',
-    oiy: 'oiy',
-    oixc: 'oixc',
-    oiyc: 'oiyc',
     focus: 'fo',
     radius: 'r',
     border: 'b',
@@ -39,6 +35,8 @@ const operationsGenerator = createOperationsGenerator({
     effectUSM: 'e-usm',
     effectContrast: 'e-contrast',
     effectGray: 'e-grayscale',
+    effectShadow: 'e-shadow',
+    effectGradient: 'e-gradient',
     original: 'orig'
   },
   valueMap: {

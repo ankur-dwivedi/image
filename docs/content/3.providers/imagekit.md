@@ -74,6 +74,31 @@ Turn your image to a grayscale version using the `effectGray` modifier.
 />
 ```
 
+### `effectShadow`
+
+Add a shadow under solid objects in an input image with a transparent background using the `effectShadow` modifier.
+
+```html
+<NuxtImg
+  provider="imagekit"
+  src="/default-image.jpg"
+  height="300"
+  :modifiers="{effectShadow: 'bl-15_st-40_x-10_y-N5'}"
+/>
+```
+
+### `effectGradient`
+
+Add a gradient overlay over an input image using the `effectGradient` modifier.
+
+```html
+<NuxtImg
+  provider="imagekit"
+  src="/default-image.jpg"
+  height="300"
+  :modifiers="{effectGradient: 'from-red_to-white'}"
+/>
+```
 
 ### `named`
 
@@ -229,10 +254,6 @@ ImageKit's Nuxt Image integration provides an easy-to-remember name for each tra
 | y | y |
 | xc | xc |
 | yc | yc |
-| oix | oix |
-| oiy | oiy |
-| oixc | oixc |
-| oiyc | oiyc |
 | crop | c |
 | cropMode | cm |
 | focus | fo |
@@ -252,6 +273,8 @@ ImageKit's Nuxt Image integration provides an easy-to-remember name for each tra
 | effectUSM | e-usm |
 | effectContrast | e-contrast |
 | effectGray | e-grayscale |
+| effectShadow | e-shadow |
+| effectGradient | e-gradient |
 | original | orig |
 
 > Learn more about [ImageKit's Image transformations](https://docs.imagekit.io/features/image-transformations) from the official documentation.
